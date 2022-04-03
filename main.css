@@ -1,0 +1,177 @@
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus {
+    background-color: white;
+    color:  black;
+}
+
+.list-group > li > a:hover,
+.list-group > li > a:focus {
+    color:  black;
+
+}
+
+#right
+{
+    position:absolute;
+    right:20px;
+}
+
+.intro-div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.padded{
+    padding-bottom:20px;
+}
+
+blockquote{
+    color: white;
+    font-family: "Lucida Handwriting", Cursive;
+}
+
+small{
+    color: white;
+}
+
+.orange-solid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /*height: 300px;*/
+    color: white;
+    background-color:#F85802;       
+}
+
+/*.testimonials {
+  font-family: "Lucida Handwriting", Cursive;
+}*/
+
+.yellow-solid{
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height: 600px;
+    background-color:#ffad33;		
+}
+
+.tutors-div{
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 80vh;
+}
+.w-70 {
+  width: 100% !important;
+  height: 60vh;
+}
+
+/*.carousel-caption{
+  color: #fff;
+  top: 50%;
+}
+*/
+.images img {
+
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.other{
+        height:300px;
+}
+
+.footer-row-bg{
+        background-color: black;
+        color:white; 
+        text-align: center;       
+}
+
+#quote-carousel {
+    align-items:center;
+    margin:auto;
+    /*padding: 0 10px 30px 10px;*/
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 80%;
+    height: 20vw !important;
+    object-fit: cover;
+}
+.carousel-item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.carousel-item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+#quote-carousel .carousel-item{
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+.first-box {
+  width:300px; 
+  height: 150px; 
+  float:right; 
+  background: #EAEAEA;
+  align-items: center !important;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 50px
+}
+
+.second-box {
+  width:300px; 
+  height: 150px; 
+  float:right; 
+  background: #EAEAEA;
+  align-items: center !important;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 50px
+}
+
+.big-font{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}  
+.fa-star{
+    
+  color : orange;
+
+}
